@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@600&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+body {
+  background-image: url("../images/pattern-background-desktop.svg");
+  background-repeat: no-repeat; }
+  body .main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh; }
+    body .main .general-elements {
+      width: 40%;
+      border-radius: 20px;
+      background: #fff; }
+      body .main .general-elements .top img {
+        width: 100%;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        margin-bottom: 1.5rem; }
+      body .main .general-elements .middle h2 {
+        font-family: 'Red Hat Display';
+        text-align: center;
+        margin-bottom: 1rem; }
+      body .main .general-elements .middle p {
+        font-weight: 400;
+        font-family: 'Red Hat Display';
+        text-align: center;
+        color: grey;
+        width: 80%;
+        display: block;
+        margin: 0 auto; }
+      body .main .general-elements .middle .song-part {
+        background-color: #f5f7ff;
+        width: 95%;
+        border-radius: 10px;
+        display: block;
+        margin: 1.5rem auto;
+        padding: 1rem; }
+        body .main .general-elements .middle .song-part a {
+          font-family: sans-serif;
+          font-size: 14px; }
+          body .main .general-elements .middle .song-part a:active {
+            text-decoration: none;
+            color: #7280a7; }
+        body .main .general-elements .middle .song-part .two {
+          display: flex;
+          justify-content: space-between; }
+          body .main .general-elements .middle .song-part .two .texts {
+            display: flex;
+            width: 42%; }
+            body .main .general-elements .middle .song-part .two .texts .depend {
+              position: relative;
+              left: 12px;
+              font-family: 'Red Hat Display'; }
+              body .main .general-elements .middle .song-part .two .texts .depend p:first-child {
+                width: 100%;
+                font-weight: 600 !important;
+                color: #000; }
+              body .main .general-elements .middle .song-part .two .texts .depend p:last-child {
+                position: relative;
+                right: 10px !important; }
+    body .main .bottom {
+      display: flex;
+      flex-direction: column;
+      align-items: center; }
+      body .main .bottom button {
+        width: 20rem;
+        height: 2.5rem;
+        border-radius: 10px;
+        outline: none;
+        border: none;
+        cursor: pointer; }
+      body .main .bottom .btn-1 button {
+        background-color: #3829e0;
+        color: #fff;
+        font-family: 'Red Hat Display';
+        font-weight: 600;
+        margin-bottom: 1rem; }
+        body .main .bottom .btn-1 button:active {
+          background-color: #6155e6; }
+      body .main .bottom .btn-2 button {
+        font-family: 'Red Hat Display';
+        font-weight: 900;
+        background-color: #f5f7ff;
+        color: #7280a7; }
+        body .main .bottom .btn-2 button:active {
+          color: #000; }
+
+@media screen and (max-width: 991px) {
+  .general-elements {
+    transition: .3s;
+    width: 60% !important; } }
+
+@media screen and (max-width: 767px) {
+  .general-elements {
+    transition: .3s;
+    width: 80% !important; }
+    .general-elements .song-part .two .texts {
+      width: 100% !important; }
+      .general-elements .song-part .two .texts img {
+        transition: .3s;
+        width: 3rem !important;
+        height: 3rem !important; }
+    .general-elements .bottom button {
+      width: 20rem !important; } }
+
+@media screen and (max-width: 585px) {
+  .general-elements {
+    transition: .3s;
+    width: 90% !important; }
+    .general-elements .bottom button {
+      transition: .3s;
+      width: 15rem !important; } }
