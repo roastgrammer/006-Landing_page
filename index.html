@@ -4,51 +4,40 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>order-summary</title>
+    <title>Order Summary</title>
     <link rel="stylesheet" href="./css/main.css">
-    <!-- ============================================= -->
-    <!-- ============================================= -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    <div class="main">
-        <div class="general-elements">
-            <div class="top">
-                <img src="./images/illustration-hero.svg" alt="hero">
-            </div>
-            <div class="middle">
-                <h2>Order Summary</h2>
-                <p>You can now listen to millions of songs,
-                    audiobooks,and podcasts on any devices 
-                    anywhere you like!
-                </p>
-                <div class="song-part">
-                    <div class="two">
-                        <div class="texts">
-                            <img src="./images/icon-music.svg" alt="music">
-                            <div class="depend">
-                                <p>Annual Plan</p>
-                                <p>$59.99/year</p>
-                            </div>
-                        </div>
-                        <a href="#">Change</a>
+    
+    <div class="box">
+        <div class="cover">
+            <img src="images/person.svg" alt="Person image">
+        </div>
+        <div class="txt">
+            <h2>Order Summary</h2>
+            <p id="fp">You can now listen to millions of songs, audiobooks,and podcasts on any devices anywhere you like!</p>
+            <div class="sec1">
+                <div class="l">
+                    <i class="fa-solid fa-music fa-lg" style="color:rgb(202, 166, 142)"></i>
+                    <div class="p">
+                        <p>Annual Plan</p>
+                        <p>$55.99 / Year</p>
                     </div>
                 </div>
+                <div class="r">
+                    <a href="#">Change</a>
+                </div>
             </div>
-            <div class="bottom">
-                <div class="btn-1">
-                    <button>
-                        Proceed to Payment
-                    </button>
-                </div>
-                <div class="btn-2">
-                    <button>
-                        Cancel Order
-                    </button>
-                </div>
+            <div class="btn">
+                <button type="submit">Proceed to payment</button>
+                <button type="submit">Cancel Order</button>
             </div>
         </div>
     </div>
 
-    <script src="./javascript/main.js"></script>
+
+
 </body>
 </html>
